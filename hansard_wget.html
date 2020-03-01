@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    
+        <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NFVRG43');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <meta name="description" content="Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. Daily Debates from Hansard are published on this website the next working day.">
+
+    <link rel="dns-prefetch" href="//ajax.googleapis.com/" />
+    <link rel="shortcut icon" href="/Assets/img/favicon.ico" type="image/x-icon" />
+
+        <title>Find Members - Hansard</title>
+    <link href="/assets/css/bundle?v=iGtf8YJxXRNBeHXf1CZ6ukADmT4hYFCJq0nsETHFFb41" rel="stylesheet"/>
+
+    <script src="/assets/js/modernizr/bundle?v=4Dmh6ovjssOKPw9dZqg0U8FgOCXLJMRqYqL4wv9UEJM1"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFVRG43"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<div id="bootstrap-datepicker-container"></div>
+<div class="disclaimer" id="data-disclaimer">
+    <div class="container">
+        <div class="text">
+            <strong>Cookies: </strong>We use cookies to give you the best possible experience on our site. By continuing to use the site you
+            agree to our use of cookies. <a href="http://www.parliament.uk/site-information/privacy/">Find out more</a>
+        </div>
+        <button type="submit" class="btn btn-small">OK</button>
+    </div>
+</div>
+<div id="wrapper">
+    <header class="header header-secondary">
+    <div class="container">
+        <a href="https://www.parliament.uk" class="uk-parliament" target="_blank">
+            UK Parliament
+        </a>
+        <div class="links hidden-xs hidden-sm">
+            <a target="_blank" href="http://www.parliament.uk/business/">Parliamentary Business</a>
+            <a target="_blank" href="http://www.parliament.uk/mps-lords-and-offices/">MPs, Lords and Offices</a>
+            <a target="_blank" href="http://www.parliament.uk/about/">About Parliament</a>
+            <a target="_blank" href="http://www.parliament.uk/get-involved/">Get Involved</a>
+            <a target="_blank" href="http://www.parliament.uk/visiting/">Visit</a>
+            <a target="_blank" href="http://www.parliament.uk/education/">Education</a>
+        </div>
+    </div>
+</header>
+<header class="header header-primary ">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="text">Menu</span>
+                    <span class="close"><span class="glyphicon glyphicon-remove"></span></span>
+                </button>
+                <a class="brand hidden-sm hidden-xs" href="/">
+                    <div class="identity-text"><strong>Hansard</strong></div>
+                </a>
+                
+                <a class="navbar-brand hidden-md hidden-lg" href="/">
+                    <strong>Hansard</strong>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Commons <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Commons/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Commons">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=commons">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=commons">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=commons&amp;currentFormerFilter=1">Find MPs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lords <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/Lords/latestsittingday">Latest Sitting</a></li>
+                            <li><a href="/Lords">Browse Sittings</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Debates?house=lords">Find Debates</a></li>
+                            <li><a href="/search/Divisions?house=lords">Find Divisions</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="/search/Members?house=lords&amp;currentFormerFilter=1">Find Peers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about?historic=false">Hansard Online</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+<form action="/search" class="navbar-form navbar-right" method="post" role="search">                    <div class="search-form">
+                        <input id="SearchTermTop" name="SearchTerm" type="text" class="form-control" placeholder="Search Hansard...">
+                        <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+</form>            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="to-top-link">
+        <div id="top-link-block" class="hidden">
+            <a href="#" class="well well-sm hidden" id="previous-top-link"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
+            <a href="#header" class="well well-sm" id="back-to-top-link"><i class="glyphicon glyphicon-chevron-up"></i> Top</a>
+            <a href="#" class="well well-sm hidden" id="next-top-link"><i class="glyphicon glyphicon-chevron-right"></i> Next</a>
+        </div>
+    </div>
+
+</header>
+
+
+    <!-- Alert area always shown as they are added dynamically via JS -->
+<div class="alert-area"></div>
+
+
+    <div class="container">
+        <div id="main" class="content">
+            
+<div class="search-view-all members">
+    <h1 class="page-title">Find Members</h1>
+
+    <div class="member-search">
+
+<form action="/search/Members" autocomplete="off" id="main-search-form" method="post">            <div class="search-filter">
+                <h2>Filter your results</h2>
+
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <div class="search-control">
+                            <input class="form-control search-text-box" data-val="true" data-val-length="The field Search must be a string with a maximum length of 255." data-val-length-max="255" id="SearchTerm" name="SearchTerm" placeholder="Search..." type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 form-group hidden-xs">
+                        <div class="house-filter">
+                            <div class="toggle-button btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn">
+                                    <input checked="checked" data-val="true" data-val-number="The field HouseFilter must be a number." data-val-required="The HouseFilter field is required." id="HouseFilter" name="HouseFilter" type="radio" value="1" /> Commons
+                                </label>
+                                <label class="btn">
+                                    <input id="HouseFilter" name="HouseFilter" type="radio" value="2" /> Lords
+                                </label>
+                                <label class="btn">
+                                    <input id="HouseFilter" name="HouseFilter" type="radio" value="0" /> Both
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2 col-sm-3 hidden-xs">
+                        <label for="StartDate">From</label>
+                        <div class="datepicker">
+                            <input Value="27/02/2015" class="form-control datepicker-width" data-alt-text="Search &#39;From&#39; Date" data-val="true" data-val-date="The field From must be a date." data-val-required="The From field is required." id="StartDate" name="StartDate" placeholder="Date" type="text" value="27/02/2015 00:00:00" /><img id="startdate-picker-img" class="ui-datepicker-trigger" src="/assets/img/brand-icons/brand-icon-datepicker.png" alt="Search 'From' Date" title="Search 'From' Date">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-5 hidden-xs">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <label for="EndDate">Until</label>
+                                <div class="datepicker hidden-xs">
+                                    <input Value="27/02/2020" class="form-control datepicker-width" data-alt-text="Search &#39;Until&#39; Date" data-val="true" data-val-date="The field Until must be a date." data-val-dateafter="The From date must be before the Until date." data-val-dateafter-otherproperty="StartDate" id="EndDate" name="EndDate" placeholder="Date" type="text" value="27/02/2020 00:00:00" /><img id="enddate-picker-img" class="ui-datepicker-trigger" src="/assets/img/brand-icons/brand-icon-datepicker.png" alt="Search 'Until' Date" title="Search 'Until' Date">
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <a id="alldates" href="#" class="view-all-years hidden-xs">View All Years</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 hidden-xs">
+                        <label>Member Status</label>
+                        <div class="member-status-filter">
+                            <div class="toggle-button btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn">
+                                    <input checked="checked" data-val="true" data-val-number="The field CurrentFormerFilter must be a number." data-val-required="The CurrentFormerFilter field is required." id="CurrentFormerFilter" name="CurrentFormerFilter" type="radio" value="1" /> Current Members
+                                </label>
+                                <label class="btn">
+                                    <input id="CurrentFormerFilter" name="CurrentFormerFilter" type="radio" value="2" /> Former Members
+                                </label>
+                                <label class="btn">
+                                    <input id="CurrentFormerFilter" name="CurrentFormerFilter" type="radio" value="0" /> Both
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary hidden-xs search-desktop">Search</button>
+
+                <div class="form-group inline-filter visible-xs">
+                    <label class="checkbox-inline">
+                        <input id="includeHistoricalDataToggle" type="checkbox" data-toggle="toggle" data-on="On" data-off="Off"> Include Historical Data
+                    </label>
+                </div>
+                <div>
+                    <span class="field-validation-valid" data-valmsg-for="SearchTerm" data-valmsg-replace="true"></span>
+                    <span class="field-validation-valid" data-valmsg-for="StartDate" data-valmsg-replace="true"></span>
+                    <span class="field-validation-valid" data-valmsg-for="EndDate" data-valmsg-replace="true"></span>
+                </div>
+                <button type="submit" class="btn btn-wide btn-primary hidden-sm hidden-md hidden-lg search-mobile">Search</button>
+            </div>
+</form>    </div>
+
+    <div class="search-results" data-async-load="/search/Members?currentFormerFilter=1&amp;house=Commons">
+        <div id="dummy-content" class="dummy-content">
+            <div class="pagination-wrapper row clearfix">
+                <div class="col-sm-5">
+                    <p class="pagination-total">&nbsp;</p>
+                </div>
+            </div>
+
+            <div class="results-list row">
+                    <div class="col-sm-6 result-outer">
+                        <div class="result member">
+                            <div class="title two-lines">
+                                <span>&nbsp;</span>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="information secondaryTitle">&nbsp;</div>
+
+                                    <div class="information secondaryTitle">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 result-outer">
+                        <div class="result member">
+                            <div class="title two-lines">
+                                <span>&nbsp;</span>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="information secondaryTitle">&nbsp;</div>
+
+                                    <div class="information secondaryTitle">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 result-outer">
+                        <div class="result member">
+                            <div class="title two-lines">
+                                <span>&nbsp;</span>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="information secondaryTitle">&nbsp;</div>
+
+                                    <div class="information secondaryTitle">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 result-outer">
+                        <div class="result member">
+                            <div class="title two-lines">
+                                <span>&nbsp;</span>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="information secondaryTitle">&nbsp;</div>
+
+                                    <div class="information secondaryTitle">&nbsp;</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+
+    <div class="footer-bumper"></div>
+    <p class="visible-xs"></p>
+    <div class="footer">
+        <footer class="container hidden-xs">
+            <div class="text-muted">
+                <a target="_blank" href="http://www.parliament.uk/site-information/azindex/">A-Z index</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/glossary/">Glossary</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/contact-us/">Contact us</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/foi/">Freedom of Information</a> |
+                <a target="_blank" href="http://www.parliament.uk/site-information/data-protection/">Data Protection</a> |
+                <span class="hidden-sm">
+                    <a target="_blank" href="http://www.parliament.uk/site-information/job-opportunities/">Jobs</a> |
+                    <a target="_blank" href="http://www.parliament.uk/site-information/using-this-website/">Using this website</a> |
+                </span>
+                <a target="_blank" href="http://www.parliament.uk/site-information/copyright/">Copyright</a>
+            </div>
+        </footer>
+        <footer class="container hidden-sm hidden-md hidden-lg">
+            <div class="text-muted"><a target="_blank" href="http://www.parliament.uk/site-information/copyright/" target="_blank">&copy; Parliamentary Copyright</a>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/lib/jquery-1.11.0.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="/assets/js/bundle?v=-FHNkvrFQ2hlBr_TlXZsL32obpR69TeS4hF0fp5QshE1"></script>
+
+
+
+
+
+
+
+</body>
+</html>
